@@ -527,7 +527,7 @@
                     type: 'doughnut',
                     data: {
                         labels: ['معلق', 'جاري', 'مكتمل'],
-                        datasets: [{
+                        datas: [{
                             data: [statusCounts.pending, statusCounts.active, statusCounts.completed],
                             backgroundColor: ['#ffc107', '#4caf50', '#2196f3'],
                             borderColor: '#1a1a2e',
@@ -559,7 +559,7 @@
                     type: 'doughnut',
                     data: {
                         labels: ['الإنفاق الفعلي', 'المتبقي'],
-                        datasets: [{
+                        datas: [{
                             data: [totalSpent, remaining],
                             backgroundColor: ['#00d4ff', '#333'],
                             borderColor: '#1a1a2e',
@@ -599,8 +599,8 @@
         // Initialize
         loadData();
 
-        // Auto-rotate every 1 minute and 20 seconds
-        setInterval(nextPage, 80000);
+        // Auto-rotate every 10 seconds
+        setInterval(nextPage, 10000);
 
         // Reload data every 1 minute and 20 seconds
         setInterval(loadData, 80000);
