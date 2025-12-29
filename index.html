@@ -599,11 +599,15 @@
         // Initialize
         loadData();
 
-        // Auto-rotate every 10 seconds
-        setInterval(nextPage, 10000);
+        // Auto-rotate every 1 minute and 20 seconds
+        setInterval(nextPage, 80000);
 
-        // Reload data every minute
-        setInterval(loadData, 60000);
+        // Reload data every 1 minute and 20 seconds
+        setInterval(loadData, 80000);
+        
+    // Refresh page every 1 minute and 20 seconds
+    setInterval(() => location.reload(), 80000);
+        
     </script>
 </body>
 </html>
