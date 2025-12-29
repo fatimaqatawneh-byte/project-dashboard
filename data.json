@@ -1,0 +1,36 @@
+{
+  "totalBudget": 0,
+  "totalSpent": 0,
+  "projects": [
+    {
+      "id": 1,
+      "name": "اسم المشروع الأول",
+      "type": "نوع المشروع",
+      "location": "الموقع",
+      "budget": 50000,
+      "spent": 25000,
+      "progress": 50,
+      "status": "جاري"
+    },
+    {
+      "id": 2,
+      "name": "اسم المشروع الثاني",
+      "type": "نوع المشروع",
+      "location": "الموقع",
+      "budget": 75000,
+      "spent": 45000,
+      "progress": 60,
+      "status": "جاري"
+    },
+    {
+      "id": 3,
+      "name": "اسم المشروع الثالث",
+      "type": "نوع المشروع",
+      "location": "الموقع",
+      "budget": 100000,
+      "spent": 100000,
+      "progress": 100,
+      "status": "مكتمل"
+    }
+  ]
+}
