@@ -4,12 +4,12 @@
   "projects": [
     {
       "id": 1,
-      "name": "اسم المشروع الأول",
-      "type": "بنائي",
-      "location": "الموقع",
-      "budget": 50000,
-      "spent": 25000,
-      "progress": 50,
+      "name": "جدار عي الثقافي",
+      "type": "معماري تراثي",
+      "location": "عي",
+      "budget": 12662,
+      "spent": 0,
+      "progress": 10,
       "status": "جاري"
     },
     {
