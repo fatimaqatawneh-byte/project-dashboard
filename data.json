@@ -4,10 +4,10 @@
   "projects": [
     {
       "id": 1,
-      "name": "جدار عي الثقافي",
-      "type": "معماري تراثي",
+      "name": "طريق كثربا الاغوار",
+      "type": "طرق",
       "location": "عي",
-      "budget": 12662,
+      "budget": 22232,
       "spent": 0,
       "progress": 10,
       "status": "جاري"
